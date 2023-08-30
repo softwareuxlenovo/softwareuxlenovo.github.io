@@ -1,0 +1,68 @@
+* {
+    font-family: 'Segoe UI', Helvetica, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: #E2E8F0 url("img_tree.gif") no-repeat fixed center;
+  }
+  
+  #containerfull {
+    width: 96%;
+    height: 90%;
+    border-radius: 16px;
+    margin: 5% 2%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    animation-name: container;
+    animation-duration: 2s;
+  }
+  
+  #title {
+    margin: -5px;
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: -0.5;
+    line-height: 123.5%;
+    animation-name: title;
+    animation-duration: 2s;
+  }
+  
+  @keyframes title {
+    from {
+      margin-left: -40px;
+      opacity: 20%
+    }
+  
+    to {
+      margin-left: -5px;
+      opacity: 100%
+    }
+  }
+  
+  #containertext {
+    width: 80%;
+    height: 80%;
+    margin: 10% 10%;
+    position: absolute;
+    animation-name: container;
+    animation-duration: 2s;
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.15;
+    line-height: 160%;
+  }
+  
+  @keyframes container {
+    from {
+      opacity: 20%
+    }
+  
+    to {
+      opacity: 100%
+    }
+  }
+  
